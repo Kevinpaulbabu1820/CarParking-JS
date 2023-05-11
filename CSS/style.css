@@ -1,0 +1,42 @@
+Style.css * {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body {
+  background-color: rgb(240, 240, 47);
+}
+header {
+  background-color: rgb(25, 112, 40);
+  background-image: linear-gradient(90deg, lightgreen, green);
+}
+#header-logo {
+  width: 64px;
+  height: 64px;
+}
+#header-msg {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+#btnOne {
+  background-color: rgb(25, 112, 40);
+  color: white;
+  font-weight: bold;
+  border-radius: 40px;
+}
+#btnOne:focus,
+#btnOne:hover {
+  box-shadow: none;
+  outline: none;
+}
+#tableHead {
+  background-color: rgb(25, 112, 40);
+}
+table {
+  background-color: white;
+}
+form {
+  border-radius: 4px;
+}
